@@ -113,6 +113,11 @@ p {
     height: fit-content;
 }
 
+.sidebarActive a {
+    font-weight: bold !important;
+    font-family: "branding-bold" !important;
+}
+
 .bg-blue {
     background: linear-gradient(to right, #5366ea, #5366ea 36.33%, white 36.33%, white 64.66%);
 }
@@ -415,7 +420,7 @@ p {
     top: 0;
     left: -100%;
     background: #5266ea;
-    content: "hello";
+    content: "";
     width: 100%;
     height: 100%;
 }
