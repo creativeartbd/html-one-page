@@ -19,5 +19,14 @@
             }
             var faq = that.next(".sh-faq-answer").toggleClass("faq-active");;
         });
+
+        $(".sh-mobile-calculator-icon").click(function() {
+            $(".sh-calculator").addClass("show-calculator");
+            $(".show-filter").show();
+            $(".show-filter a").click(function() {
+                $(".sh-calculator").removeClass("show-calculator");
+            });
+        });
+
     });
 })(jQuery);
