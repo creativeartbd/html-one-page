@@ -1,14 +1,14 @@
 @font-face {
     font-family: "branding";
-    src : url("fonts/Branding Light.otf");
+    src : url("fonts/Branding Light.ttf");
 }
 @font-face {
     font-family: "branding-bold";
-    src : url("fonts/Branding Bold.otf");
+    src : url("fonts/Branding Bold.ttf");
 }
 @font-face {
     font-family: "branding-medium";
-    src : url("fonts/Branding\ Medium.otf");
+    src : url("fonts/Branding\ Medium.ttf");
 }
 
 * {
@@ -172,6 +172,9 @@ p {
     flex-basis : 35%;
     flex-shrink: 0;
     height : fit-content;
+    position: sticky;
+    top : 0;
+    margin-bottom: 50px;
 }
 
 .sh-calculator .form-group {
