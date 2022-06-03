@@ -1,14 +1,14 @@
 @font-face {
     font-family: "branding";
-    src : url("fonts/Branding Light.ttf");
+    src : url("fonts/branding-semibold.woff2");
 }
 @font-face {
     font-family: "branding-bold";
-    src : url("fonts/Branding Bold.ttf");
+    src : url("fonts/branding-bold.woff2");
 }
 @font-face {
     font-family: "branding-medium";
-    src : url("fonts/Branding\ Medium.ttf");
+    src : url("fonts/branding-medium.woff2");
 }
 
 * {
