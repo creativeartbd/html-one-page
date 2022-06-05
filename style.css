@@ -113,6 +113,17 @@ p {
     height: fit-content;
 }
 
+.sh-sidebar-content {
+    height: 100vh;
+    overflow-y: auto;
+    -ms-overflow-style: none; /* Edge, Internet Explorer */
+    scrollbar-width: none; /* Firefox */
+    overflow-y: scroll;
+}
+.sh-sidebar-content::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Opera */
+}
+
 .sidebarActive a {
     font-weight: bold !important;
     font-family: "branding-bold" !important;
@@ -466,7 +477,7 @@ p {
 .sh-body-sidebar ul li:after {
     position: absolute;
     top: 50%;
-    right: 0;
+    right: 4px;
     content: '';
     box-sizing: border-box;
     height: 20px;
